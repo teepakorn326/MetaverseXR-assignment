@@ -45,13 +45,13 @@ function LoginForm() {
   };
   return (
     <form
-      className="flex flex-col w-1/5 gap-5 items-center "
+      className="flex flex-col sm:w-1/5 gap-5 items-center  "
       onSubmit={handleSubmitForm}
     >
-      <div className="text-[70px]">Sign in</div>
+      <div className="lg:text-[70px] sm:text-[50px] text-[40px]  ">Sign in</div>
 
       <input
-        className="form-control relative  w-full  px-3 py-1.5 text-base font-normal text-gray-700 bg-white border focus:bg-white focus:border-blue-600 focus:outline-none "
+        className="form-control relative   w-full  px-3 py-1.5 text-base font-normal text-gray-700 bg-white border focus:bg-white focus:border-blue-600 focus:outline-none "
         placeholder="put the e-mail"
         name="email"
         onChange={handleChangeInput}
